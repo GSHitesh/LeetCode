@@ -8,7 +8,7 @@ int search(int A[], int l, int h, int key){
             int mid = (l+h)/2;
             
             if(key == A[mid])
-                return mid;
+                return mid; // every testcase value is returned from here
             if(A[l] <= A[mid]){
                 if(key >= A[l] && key < A[mid]){
                     h = mid-1;

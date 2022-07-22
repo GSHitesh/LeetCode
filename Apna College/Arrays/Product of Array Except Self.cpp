@@ -2,7 +2,7 @@ class Solution {
 public:
     vector<int> productExceptSelf(vector<int>& nums) {
         int n = nums.size();
-        vector <int> product(n,1);
+        vector <int> product(n,1); // n initalization is imp.
         
         vector <int> leftproduct(n,1), rightproduct(n,1);
         
