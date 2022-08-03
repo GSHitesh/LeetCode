@@ -10,6 +10,13 @@ public:
         int sum = 0;
        while(head){
            sum *= 2;
+           // 1 0 1
+        //    1
+        //    1x2 + 0 = 2
+        //    2*2 +1 = 5
+        // Multiplying with the left value of the linked list which is MSB
+
+
            sum += head->val;
            head = head->next;
        }
