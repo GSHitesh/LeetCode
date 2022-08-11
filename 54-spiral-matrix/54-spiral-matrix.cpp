@@ -3,8 +3,8 @@ public:
     vector<int> spiralOrder(vector<vector<int>>& matrix) {
         int n = matrix.size();
         int m = matrix[0].size();   // elements in a row
-        int left = 0,right = m-1;   // rows wise
-        int top = 0, down = n-1;    // column wise
+        int left = 0,right = m-1;   // column wise
+        int top = 0, down = n-1;    // row wise
         int direction = 1;          // default left to right
         
         vector <int> spiral;
