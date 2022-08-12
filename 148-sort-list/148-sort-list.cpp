@@ -49,11 +49,11 @@ public:
         }
         if(l1){
             current->next = l1;
-            l1 = l1->next;
+            // l1 = l1->next;
         }
         if(l2){
             current->next = l2;
-            l2 = l2->next;
+            // l2 = l2->next;
             
         }    
         
